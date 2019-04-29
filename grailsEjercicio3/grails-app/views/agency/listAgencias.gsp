@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: marclopez
-  Date: 2019-04-26
-  Time: 12:16
+  Date: 2019-04-29
+  Time: 01:16
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" %>
@@ -12,6 +12,8 @@
 </head>
 
 <body>
-<p>SE GUARDO CON EXITO!</p>
+<ul>
+    <li id="listAgencias"></li>
+</ul>
 </body>
 </html>

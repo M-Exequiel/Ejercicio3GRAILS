@@ -1,5 +1,7 @@
 package grailsejercicio3
 
+import javax.swing.text.View
+
 class UrlMappings {
 
     static mappings = {
@@ -10,7 +12,9 @@ class UrlMappings {
         }
 
         "/"(view:"/agency/form")
-        "/save/$code"(controller: "agency", action: "save")
+        "/agregar/$codigoAgencia"(controller: "agency", action: "addAgencia")
+        "/borrar/$codigoAgencia"(controller: "agency", action: "deleteAgencia")
+        "/listar" (controller: "agency", action: "listAgencias")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
